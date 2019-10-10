@@ -3,14 +3,17 @@
 This is the webpage for the MSc ADIC lab on "Mastering Digital Design".
 
 Lab leader: Dr John Wickerson.
+Course developed by: Prof Peter Cheung.
 Teaching assistants 2019: Mr Jianyi Cheng (weeks 1--3), Mr He Li (week 4).
+
+Please send feedback on any of this material (e.g. errors, typos, or other suggestions for improvement) to Dr Wickerson. You might like to do this by raising an [issue](https://github.com/johnwickerson/mastering_digital_design/issues).
 
 ## Aims
 
 1. To ensure all students on the MSc course reach a common competence level in RTL design using FPGAs in a hardware description language; and
 2. To act as revision exercise for those who are already competent in Verilog and FPGA.
 
-You will conduct this experiment in the first half of the Autumn Term between 11th October and 1st November 2019. You can find a copy of the Experiment Specification Document [here](experiment/Experiment_spec.pdf).
+You will conduct this experiment in the first half of the Autumn Term between 11th October and 1st November 2019. You can find a copy of the Experiment Specification Document [here](experiment/specification.pdf).
 
 ## Team Pairing
 
@@ -45,48 +48,48 @@ This Lab Experiment has FOUR distinct parts, each with specific learning outcome
 
 ## Assessment
 
-There will be an oral interview at the end of the experiment. The marks for this experiment will count towards the Coursework component of the MSc course.
+There will be an oral interview at the end of the experiment. The [marks](experiment/marksheet.pdf) for this experiment will count towards the Coursework component of the MSc course.
 
 ## Experiment
 
-The experiment handbook can be found [here](experiment/Experiment.pdf). Below are some useful resources for each part of the experiment.
+The experiment handbook can be found [here](experiment/handbook.pdf). Below are some useful resources for each part of the experiment.
 
 ### Part 1: Schematic vs. Verilog
 
-* [Ex1 solution](ex1sol.sof.zip)
-* [Incomplete version of 7-segment decoder](My7seg_incomplete.bdf.zip)
-* [Pin assignment](pin_assignment.txt)
-* [Verilog code for bin2bcd modules](bin2bcd_corrected.zip)
-* [Ex4 solution](ex4sol.sof.zip)
+* [Ex1 solution](design_files/ex1sol.sof.zip)
+* [Incomplete version of 7-segment decoder](design_files/My7seg_incomplete.bdf.zip)
+* [Pin assignment](design_files/pin_assignment.txt)
+* [Verilog code for bin2bcd modules](design_files/bin2bcd_corrected.zip)
+* [Ex4 solution](design_files/ex4sol.sof.zip)
 
 ### Part 2: Counters and FSMs
 
-* [Instructions for setting up ModelSim](Modelsim_setup.pdf)
-* [Ex8 solution](ex8sol.sof.zip)
-* [Verilog code for bin2bcd modules](bin2bcd_corrected.zip)
-* [Code for pwm](pwm.v.zip)
+* [Instructions for setting up ModelSim](reference_material/Modelsim_setup.pdf)
+* [Ex8 solution](design_files/ex8sol.sof.zip)
+* [Verilog code for bin2bcd modules](design_files/bin2bcd_corrected.zip)
+* [Code for pwm](design_files/pwm.v.zip)
 
 ### Part 3: DAC and Tone Generator
 
-* [spi2dac and spi2adc](/spi2dac_adc_v3.zip)
-* [Explanation for spi2dac and spi3adc](spi2dac_adc_explanation.pdf)
-* [Test bench for spi2dac.v](tb_spi2dac.do.zip)
-* [Analogue I/O Card schematic diagram](DE1-SOC_Addon_Card.pdf)
-* [DAC datasheet](MCP49x1.pdf)
-* [ADC datasheet](MCP3002.pdf)
-* [Opamp datasheet](MCP604.pdf)
-* Sinewave generation ([python](sinegen.py.zip), [matlab](sinegen.m.zip))
-* [ROM initialisation file](rom_data.mif.zip)
-* [Ex11 solution](ex11sol.sof.zip)
-* [Ex14 solution](ex14sol.sof.zip)
-* [Ex15 solution](ex15sol.sof.zip)
+* [spi2dac and spi2adc](design_files/spi2dac_adc_v3.zip)
+* [Explanation for spi2dac and spi3adc](reference_material/spi2dac_adc_explanation.pdf)
+* [Test bench for spi2dac.v](design_files/tb_spi2dac.do.zip)
+* [Analogue I/O Card schematic diagram](reference_material/DE1-SOC_Addon_Card.pdf)
+* [DAC datasheet](reference_material/MCP49x1.pdf)
+* [ADC datasheet](reference_material/MCP3002.pdf)
+* [Opamp datasheet](reference_material/MCP604.pdf)
+* Sinewave generation ([python](design_files/sinegen.py.zip), [matlab](design_files/sinegen.m.zip))
+* [ROM initialisation file](design_files/rom_data.mif.zip)
+* [Ex11 solution](design_files/ex11sol.sof.zip)
+* [Ex14 solution](design_files/ex14sol.sof.zip)
+* [Ex15 solution](design_files/ex15sol.sof.zip)
 
 ### Part 4: ADC/DAC and Echo Synthesiser
 
-* [Ex16_proto](ex16_proto.zip)
-* Audio files ([clapping.mp3](clapping.mp3), [hello.mp3](hello.mp3), [hg2g_short.mp3](h2g2_short.mp3), [hg2g_full.mp3](h2g2_full.mp3))
-* [Ex19 solution](ex19sol.sof.zip)
-* [Ex20 solution](ex20sol.sof.zip)
+* [Ex16_proto](design_files/ex16_proto.zip)
+* Audio files ([clapping.mp3](audio_files/clapping.mp3), [hello.mp3](audio_files/hello.mp3), [hg2g_short.mp3](audio_files/h2g2_short.mp3), [hg2g_full.mp3](audio_files/h2g2_full.mp3))
+* [Ex19 solution](design_files/ex19sol.sof.zip)
+* [Ex20 solution](design_files/ex20sol.sof.zip)
 
 ## Lectures
 
@@ -99,18 +102,18 @@ The experiment handbook can be found [here](experiment/Experiment.pdf). Below ar
 ### DE1-SoC Reference Manuals
 
 * [DE1-SoC Board from Terasic](http://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836)
-* [DE1-SoC Learning Roadmap](learning_roadmap.pdf)
-* [DE1-SoC Getting Started Guide](DE1-SoC_Getting_Started_Guide.pdf)
-* [DE1-SoC My First FPGA](My_First_Fpga.pdf)
-* [DE1-SoC User's Manual](DE1-SoC_User_manual.pdf)
-* [DE1-SoC Schematic Diagram](DE1-SoC_schematic.pdf)
+* [DE1-SoC Learning Roadmap](reference_material/learning_roadmap.pdf)
+* [DE1-SoC Getting Started Guide](reference_material/DE1-SoC_Getting_Started_Guide.pdf)
+* [DE1-SoC My First FPGA](reference_material/My_First_Fpga.pdf)
+* [DE1-SoC User's Manual](reference_material/DE1-SoC_User_manual.pdf)
+* [DE1-SoC Schematic Diagram](reference_material/DE1-SoC_schematic.pdf)
 
 ### Cyclone V Device Handbooks
 
-* [Cyclone V Device Overview](Cyclone_V_Overview.pdf)
-* [Cyclone V Device Handbook Vol 1: Device Interfaces and Integration](C5_handbook_v1.pdf)
-* [Cyclone V Device Handbook Vol 2: Transceivers](C5_handbook_v2.pdf)
-* [Cyclone V Device Handbook Vol 3: Hard Processor System Technical Reference Manual](C5_handbook_v3.pdf)
+* [Cyclone V Device Overview](reference_material/Cyclone_V_Overview.pdf)
+* [Cyclone V Device Handbook Vol 1: Device Interfaces and Integration](reference_material/C5_handbook_v1.pdf)
+* [Cyclone V Device Handbook Vol 2: Transceivers](reference_material/C5_handbook_v2.pdf)
+* [Cyclone V Device Handbook Vol 3: Hard Processor System Technical Reference Manual](reference_material/C5_handbook_v3.pdf)
 
 ### Quartus Related Links
 
