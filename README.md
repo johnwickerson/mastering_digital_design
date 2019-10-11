@@ -29,10 +29,9 @@ You will be working in pairs for this experiment. The pairing for the 2019 cohor
 8.  Shumin Wang + Shuang Wu
 9.  Wei Tu + Xueteng Li
 10. Yiyang Chen + Yuxin Huang
-11. Yusong Liu + Yiqun Xue
-12. Yaxing Xu + Yifan Zhang
-13. Zewei Du + Zijian Gao
-14. Zhengyu Wang + Zixiang Zhu
+11. Yusong Liu + Zewei Du
+12. Yaxing Xu + Yifan Zhang 
+13. Zhengyu Wang + Zixiang Zhu
 
 ## Learning Outcomes
 
