@@ -4,7 +4,7 @@ This is the webpage for the MSc ADIC lab on "Mastering Digital Design".
 
 * Lab leader: Dr John Wickerson.
 * Course originally developed by: Prof Peter Cheung.
-* Teaching assistants 2019: Mr Jianyi Cheng (weeks 1--3), Mr He Li (week 4).
+* Teaching assistants 2021: Mr Jianyi Cheng, Mr Diederik Vink.
 
 Please send feedback on any of this material (e.g. errors, typos, or other suggestions for improvement) to Dr Wickerson. You might like to do this by raising an [issue](https://github.com/johnwickerson/mastering_digital_design/issues).
 
@@ -14,24 +14,6 @@ Please send feedback on any of this material (e.g. errors, typos, or other sugge
 2. To act as revision exercise for those who are already competent in Verilog and FPGA.
 
 You will conduct this experiment in the first half of the Autumn Term between 11th October and 1st November 2019. You can find a copy of the Experiment Specification Document [here](experiment/specification.pdf).
-
-## Team Pairing
-
-You will be working in pairs for this experiment. The pairing for the 2019 cohort is as follows:
-
-1.  Andreas Michaelides + Jinzhao Han
-2.  Jiaxiang Li + Jiacheng Zhang
-3.  Liqi Sun + Lijie Xie
-4.  Lizhong Yan + Mingxuan Du
-5.  Qishen Guan + Qirui Hua
-6.  Qingchun Lyu + Qifan Zhu
-7.  Shihong Chen + Siyuan Feng
-8.  Shumin Wang + Shuang Wu
-9.  Wei Tu + Xueteng Li
-10. Yiyang Chen + Yuxin Huang
-11. Yusong Liu + Zewei Du
-12. Yaxing Xu + Yifan Zhang 
-13. Zhengyu Wang + Zixiang Zhu
 
 ## Learning Outcomes
 
