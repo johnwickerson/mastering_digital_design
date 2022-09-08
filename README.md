@@ -2,11 +2,11 @@
 
 This is the webpage for the MSc ADIC lab on "Mastering Digital Design".
 
-* Lab leader: Dr John Wickerson.
-* Course originally developed by: Prof Peter Cheung.
-* Teaching assistants 2022: Mr Jianyi Cheng and Mr Benjamin Biggs.
+* Lab leader: [Dr John Wickerson](https://johnwickerson.github.io/).
+* Course originally developed by: [Prof Peter Cheung](https://www.imperial.ac.uk/people/p.cheung).
+* Teaching assistants 2022: [Mr Jianyi Cheng](https://jianyicheng.github.io/) and [Mr Benjamin Biggs](https://www.linkedin.com/in/ben-biggs/).
 
-Please send feedback on any of this material (e.g. errors, typos, or other suggestions for improvement) to Dr Wickerson. You might like to do this by raising an [issue](https://github.com/johnwickerson/mastering_digital_design/issues).
+Please send feedback on any of this material (e.g. errors, typos, or other suggestions for improvement) to Dr Wickerson. You can either do this by raising an [issue](https://github.com/johnwickerson/mastering_digital_design/issues) or by emailing him.
 
 ## Aims
 
