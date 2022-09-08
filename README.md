@@ -4,7 +4,7 @@ This is the webpage for the MSc ADIC lab on "Mastering Digital Design".
 
 * Lab leader: Dr John Wickerson.
 * Course originally developed by: Prof Peter Cheung.
-* Teaching assistants 2021: Mr Jianyi Cheng, Mr Diederik Vink.
+* Teaching assistants 2022: Mr Jianyi Cheng.
 
 Please send feedback on any of this material (e.g. errors, typos, or other suggestions for improvement) to Dr Wickerson. You might like to do this by raising an [issue](https://github.com/johnwickerson/mastering_digital_design/issues).
 
@@ -13,7 +13,7 @@ Please send feedback on any of this material (e.g. errors, typos, or other sugge
 1. To ensure all students on the MSc course reach a common competence level in RTL design using FPGAs in a hardware description language; and
 2. To act as revision exercise for those who are already competent in Verilog and FPGA.
 
-You will conduct this experiment in the first half of the Autumn Term between 11th October and 1st November 2019. You can find a copy of the Experiment Specification Document [here](experiment/specification.pdf).
+You will conduct this experiment in the first half of the Autumn Term. You can find a copy of the Experiment Specification Document [here](experiment/specification.pdf).
 
 ## Learning Outcomes
 
